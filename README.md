@@ -53,6 +53,18 @@ A powerful system that enables **GitHub Copilot** to control your browser automa
 
 That's it! NO separate server installation is required.
 
+### Publishing to Chrome Web Store
+
+1.  **Zip the Extension**:
+    Compress the `browser-extension` folder into a `.zip` file.
+    *(I have already created `browser-extension.zip` for you in the root folder)*
+
+2.  **Upload**:
+    -   Go to [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/dev/dashboard)
+    -   Click "New Item"
+    -   Upload `browser-extension.zip`
+    -   Fill in store listing details and publish.
+
 ### Packaging for Release
 
 To package this extension for the VS Code Marketplace:

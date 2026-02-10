@@ -10,7 +10,7 @@ You will need these details to fill out the form at [marketplace.visualstudio.co
 | **ID*** | `jaypal-browser-copilot` | **Must match `package.json`!** |
 | **Domain** | *(Leave empty)* | unless you own a domain |
 | **Description** | `Connect GitHub Copilot to your browser for automated testing and control` | |
-| **Source code**| `https://github.com/jaypal1046/browser_copilot_integration` | |
+| **Source code**| `https://github.com/jaypal1046/copilot-browser` | |
 
 ---
 
@@ -45,7 +45,7 @@ npm install -g @vscode/vsce
 cd vscode-extension
 
 # Login (paste your token when asked)
-npx vsce login browser_copilot_integration
+npx vsce login copilot-browser
 
 # Package & Publish
 npx vsce publish
@@ -56,6 +56,6 @@ npx vsce publish
 ### ⚠️ I have already updated your `package.json`!
 
 I set your publisher ID to: `"browser_copilot_integration"`
-And your repository to: `"https://github.com/jaypal1046/browser_copilot_integration.git"`
+And your repository to: `"https://github.com/jaypal1046/copilot-browser.git"`
 
 **If you change the ID on the website, let me know so I can update the code.**

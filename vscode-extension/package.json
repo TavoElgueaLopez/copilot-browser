@@ -6,12 +6,12 @@
   "publisher": "browser_copilot_integration",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaypal1046/browser_copilot_integration.git"
+    "url": "https://github.com/jaypal1046/copilot-browser.git"
   },
   "bugs": {
-    "url": "https://github.com/jaypal1046/browser_copilot_integration/issues"
+    "url": "https://github.com/jaypal1046/copilot-browser/issues"
   },
-  "homepage": "https://github.com/jaypal1046/browser_copilot_integration#readme",
+  "homepage": "https://github.com/jaypal1046/copilot-browser#readme",
   "engines": {
     "vscode": "^1.80.0"
   },
