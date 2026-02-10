@@ -1,9 +1,9 @@
 {
-  "name": "browser-copilot-agent",
-  "displayName": "Browser Copilot Agent",
+  "name": "copilot-browser-vscode",
+  "displayName": "copilot-browser-vscode",
   "description": "Connect GitHub Copilot to your browser for automated testing and control",
   "version": "1.0.0",
-  "publisher": "browser_copilot_integration",
+  "publisher": "jaypal-browser-copilot",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaypal1046/copilot-browser.git"
