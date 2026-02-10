@@ -1,0 +1,135 @@
+{
+  "pages": {
+    "https://example.com": {
+      "url": "https://example.com/",
+      "title": "Example Domain",
+      "status": "complete",
+      "timestamp": 1770702697121
+    }
+  },
+  "dom": {
+    "https://example.com": {
+      "text": "Example DomainThis domain is for use in documentation examples without needing permission. Avoid use in operations.Learn more",
+      "elementCount": 12,
+      "timestamp": 1770702232493
+    }
+  },
+  "console": {
+    "https://example.com": {
+      "logs": [
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701275833
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701355242
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701365830
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701459081
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701468288
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701471507
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701587667
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701598006
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701602322
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701815263
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701815478
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770701942647
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770702141365
+        },
+        {
+          "level": "log",
+          "message": "Browser Copilot Agent ready",
+          "timestamp": 1770702697118
+        }
+      ],
+      "errorCount": 0,
+      "warnCount": 0,
+      "timestamp": 1770702697204
+    }
+  },
+  "extracted": {
+    "https://example.com": {
+      "page-content": {
+        "timestamp": 1770702141452
+      }
+    }
+  },
+  "performance": {
+    "https://example.com": {
+      "navigation": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "domInteractive": 21.299999998882413,
+        "responseTime": 0.40000000037252903
+      },
+      "paint": [
+        {
+          "name": "first-paint",
+          "startTime": 64
+        },
+        {
+          "name": "first-contentful-paint",
+          "startTime": 64
+        }
+      ],
+      "resources": [],
+      "memory": {
+        "usedJSHeapSize": 1546000,
+        "totalJSHeapSize": 2045472,
+        "jsHeapSizeLimit": 4294967296
+      },
+      "timestamp": 1770702232499
+    }
+  },
+  "metadata": {
+    "lastUpdate": 1770702697121,
+    "totalPages": 1,
+    "totalExtractions": 1
+  }
+}

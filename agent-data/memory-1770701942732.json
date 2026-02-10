@@ -1,0 +1,118 @@
+{
+  "lastPageData": {
+    "text": "Example DomainThis domain is for use in documentation examples without needing permission. Avoid use in operations.Learn more",
+    "html": "<body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://iana.org/domains/example\">Learn more</a></p></div>\n</body>",
+    "elementCount": 12,
+    "timestamp": 1770701942729
+  },
+  "consoleLogs": [
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701275833,
+      "url": "https://mail.google.com/chat/download?usp=chrome_preinstall_update"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701355242,
+      "url": "https://example.com/"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701365830,
+      "url": "https://www.iana.org/help/example-domains"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701459081,
+      "url": "https://example.com/"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701468288,
+      "url": "https://www.iana.org/help/example-domains"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701471507,
+      "url": "https://www.google.com/"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701587667,
+      "url": "https://example.com/"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701598006,
+      "url": "https://www.iana.org/help/example-domains"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701602322,
+      "url": "https://www.google.com/"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701815263,
+      "url": "https://example.com/"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701815478,
+      "url": "https://www.iana.org/help/example-domains"
+    },
+    {
+      "level": "log",
+      "message": "Browser Copilot Agent ready",
+      "timestamp": 1770701942647,
+      "url": "https://example.com/"
+    }
+  ],
+  "errors": [],
+  "decisions": [
+    {
+      "timestamp": 1770701942731,
+      "findings": [
+        "✅ Page has 125 chars of content",
+        "✅ No console errors (12 logs total)"
+      ],
+      "recommendations": []
+    }
+  ],
+  "tasks": [
+    {
+      "name": "autonomous-test",
+      "url": "https://example.com",
+      "startTime": 1770701942621,
+      "steps": [
+        "Navigate to URL",
+        "Read DOM content",
+        "Check console logs",
+        "Extract page data",
+        "Analyze collected data",
+        "Decide next action"
+      ],
+      "endTime": 1770701942731,
+      "duration": 110,
+      "analysis": {
+        "timestamp": 1770701942731,
+        "findings": [
+          "✅ Page has 125 chars of content",
+          "✅ No console errors (12 logs total)"
+        ],
+        "recommendations": []
+      }
+    }
+  ]
+}

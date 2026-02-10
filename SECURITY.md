@@ -40,6 +40,6 @@
 
 ## 🔍 Vulnerability Reporting
 
-If you discover a security vulnerability, please email: security@yourproject.com
+If you discover a security vulnerability, please email: jayprakash.pal888@gmail.com
 
 **Do not** open public GitHub issues for security vulnerabilities.

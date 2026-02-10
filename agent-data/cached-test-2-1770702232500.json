@@ -1,0 +1,177 @@
+{
+  "startTime": 1770702232479,
+  "commands": [
+    {
+      "command": "get_dom",
+      "params": {
+        "selector": "body"
+      },
+      "result": {
+        "html": "<body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.</p><p><a href=\"https://iana.org/domains/example\">Learn more</a></p></div>\n</body>",
+        "text": "Example DomainThis domain is for use in documentation examples without needing permission. Avoid use in operations.Learn more"
+      },
+      "success": true,
+      "timestamp": 1770702232492,
+      "duration": 2
+    },
+    {
+      "command": "get_console",
+      "params": {
+        "limit": 50
+      },
+      "result": {
+        "logs": [
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701275833,
+            "url": "https://mail.google.com/chat/download?usp=chrome_preinstall_update"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701355242,
+            "url": "https://example.com/"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701365830,
+            "url": "https://www.iana.org/help/example-domains"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701459081,
+            "url": "https://example.com/"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701468288,
+            "url": "https://www.iana.org/help/example-domains"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701471507,
+            "url": "https://www.google.com/"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701587667,
+            "url": "https://example.com/"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701598006,
+            "url": "https://www.iana.org/help/example-domains"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701602322,
+            "url": "https://www.google.com/"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701815263,
+            "url": "https://example.com/"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701815478,
+            "url": "https://www.iana.org/help/example-domains"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770701942647,
+            "url": "https://example.com/"
+          },
+          {
+            "level": "log",
+            "message": "Browser Copilot Agent ready",
+            "timestamp": 1770702141365,
+            "url": "https://example.com/"
+          }
+        ],
+        "total": 13
+      },
+      "success": true,
+      "timestamp": 1770702232494,
+      "duration": 1
+    },
+    {
+      "command": "get_performance",
+      "params": {},
+      "result": {
+        "navigation": {
+          "domContentLoaded": 0,
+          "loadComplete": 0,
+          "domInteractive": 21.299999998882413,
+          "responseTime": 0.40000000037252903
+        },
+        "paint": [
+          {
+            "name": "first-paint",
+            "startTime": 64
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64
+          }
+        ],
+        "resources": [],
+        "memory": {
+          "usedJSHeapSize": 1546000,
+          "totalJSHeapSize": 2045472,
+          "jsHeapSizeLimit": 4294967296
+        },
+        "timestamp": 1770702232495
+      },
+      "success": true,
+      "timestamp": 1770702232496,
+      "duration": 2
+    },
+    {
+      "command": "get_performance",
+      "params": {},
+      "result": {
+        "navigation": {
+          "domContentLoaded": 0,
+          "loadComplete": 0,
+          "domInteractive": 21.299999998882413,
+          "responseTime": 0.40000000037252903
+        },
+        "paint": [
+          {
+            "name": "first-paint",
+            "startTime": 64
+          },
+          {
+            "name": "first-contentful-paint",
+            "startTime": 64
+          }
+        ],
+        "resources": [],
+        "memory": {
+          "usedJSHeapSize": 1546000,
+          "totalJSHeapSize": 2045472,
+          "jsHeapSizeLimit": 4294967296
+        },
+        "timestamp": 1770702232499
+      },
+      "success": true,
+      "timestamp": 1770702232499,
+      "duration": 2
+    }
+  ],
+  "pages": {},
+  "screenshots": [],
+  "extractedData": {}
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Extract with eval (will fail and retry)",
+  "code": "\n        const data = {\n          title: document.title,\n          url: window.location.href,\n          links: document.querySelectorAll('a').length\n        };\n        data;\n      ",
+  "url": "https://example.com",
+  "startTime": 1770702697207,
+  "steps": [
+    "Navigate to https://example.com",
+    "Execute code with auto-retry",
+    "Analyze results"
+  ],
+  "result": {
+    "success": false,
+    "error": {
+      "message": "Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' http://localhost:* http://127.0.0.1:* chrome-extension://e45bb784-f04e-4734-9e9e-f8880d0645e6/\".\n",
+      "stack": "EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' http://localhost:* http://127.0.0.1:* chrome-extension://e45bb784-f04e-4734-9e9e-f8880d0645e6/\".\n\n    at chrome-extension://bimmgoenmlahpgdamobejdbhgeaombjj/content.js:383:29\n    at new Promise (<anonymous>)\n    at executeJavaScript (chrome-extension://bimmgoenmlahpgdamobejdbhgeaombjj/content.js:382:7)\n    at executeCommand (chrome-extension://bimmgoenmlahpgdamobejdbhgeaombjj/content.js:86:20)\n    at chrome-extension://bimmgoenmlahpgdamobejdbhgeaombjj/content.js:46:5"
+    },
+    "attempts": 3
+  },
+  "success": false,
+  "analysis": {
+    "timestamp": 1770702697259,
+    "findings": [
+      "✅ Page has 125 chars of content",
+      "✅ No console errors (14 logs total)"
+    ],
+    "recommendations": []
+  },
+  "endTime": 1770702697259,
+  "duration": 52
+}

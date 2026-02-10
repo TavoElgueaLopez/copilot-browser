@@ -21,7 +21,7 @@ You will need these details to fill out the form at [marketplace.visualstudio.co
 2.  Sign in.
 3.  Click **Create Publisher**.
 4.  Fill in the details from the table above.
-    -   **Important**: Make sure the **ID** is exactly: `jaypal-browser-copilot`
+    -   **Important**: Make sure the **ID** is exactly: `browser_copilot_integration`
 
 ### 2. Get Access Token (PAT)
 1.  Go to [Azure DevOps](https://dev.azure.com/).
@@ -45,7 +45,7 @@ npm install -g @vscode/vsce
 cd vscode-extension
 
 # Login (paste your token when asked)
-npx vsce login jaypal-browser-copilot
+npx vsce login browser_copilot_integration
 
 # Package & Publish
 npx vsce publish
@@ -55,7 +55,7 @@ npx vsce publish
 
 ### ⚠️ I have already updated your `package.json`!
 
-I set your publisher ID to: `"jaypal-browser-copilot"`
+I set your publisher ID to: `"browser_copilot_integration"`
 And your repository to: `"https://github.com/jaypal1046/browser_copilot_integration.git"`
 
 **If you change the ID on the website, let me know so I can update the code.**
